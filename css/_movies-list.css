@@ -1,0 +1,114 @@
+.imagine {
+  max-width: 170px;
+  border-radius: 15px; }
+
+.genre {
+  text-transform: uppercase;
+  color: darkblue;
+  font-size: 14px;
+  letter-spacing: 2px; }
+
+.movie-title {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #101010;
+  font-weight: 100;
+  margin: 10px 0; }
+
+.description {
+  color: #717171;
+  font-size: 16px; }
+
+.full-description {
+  font-size: 12px;
+  position: relative;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: darkblue; }
+  .full-description a:link {
+    color: darkblue; }
+  .full-description a:visited {
+    color: darkblue; }
+  .full-description a:hover {
+    color: lightblue;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s; }
+
+#btn-rezerva {
+  border-radius: 50px;
+  background-color: #034da2;
+  font-size: 13px;
+  font-weight: normal;
+  position: relative;
+  padding: 12px 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  border-width: 2px;
+  border-radius: 30px;
+  border-color: #034da2;
+  margin: auto; }
+
+#btn-rezerva:hover {
+  background-color: #bdcee0;
+  border-color: #bdcee0;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s; }
+
+.perioada p {
+  text-transform: uppercase;
+  color: #717171;
+  font-size: 14px;
+  letter-spacing: 2px; }
+
+.astazi .zi {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: darkblue;
+  padding: 10px; }
+.astazi .ore {
+  padding: 10px; }
+  .astazi .ore span {
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+    background-color: #034da2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto 5px; }
+
+.program .zi {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #717171;
+  padding: 10px; }
+.program .ore {
+  padding: 10px; }
+  .program .ore span {
+    font-size: 12px;
+    color: #717171;
+    position: relative;
+    background-color: #D8D8D8;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto 5px; }
+
+h2 {
+  font-size: 18px;
+  color: darkblue; }
+
+#acum-la-cinema {
+  padding: 20px;
+  border-bottom-width: 300px;
+  border-bottom-color: black;
+  border-width: thick; }
+
+/*# sourceMappingURL=_movies-list.css.map */

@@ -1,0 +1,42 @@
+.menu {
+  float: right;
+  z-index: 1; }
+  .menu .navbar-nav {
+    border-bottom-color: #e3e3e3;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; }
+    .menu .navbar-nav li {
+      margin: 0 20px;
+      padding-bottom: 5px;
+      letter-spacing: 3px; }
+    .menu .navbar-nav a:link {
+      color: white;
+      border-bottom-color: transparent;
+      border-bottom-style: solid;
+      border-bottom-width: 5px; }
+    .menu .navbar-nav a:visited {
+      color: white;
+      border-bottom-color: transparent;
+      border-bottom-style: solid;
+      border-bottom-width: 5px; }
+    .menu .navbar-nav a:hover {
+      color: lightblue;
+      border-bottom-color: lightblue;
+      border-bottom-style: solid;
+      border-bottom-width: 5px;
+      transition-property: all;
+      transition-duration: 400ms;
+      transition-timing-function: ease-in-out;
+      transition-delay: 0s; }
+    .menu .navbar-nav a:active {
+      color: #034da2;
+      padding-bottom: 4px;
+      border-bottom-color: #034da2;
+      border-bottom-style: solid;
+      border-bottom-width: 5px; }
+    .menu .navbar-nav .nav-link {
+      color: #FFFFFF;
+      font-size: 16px;
+      text-transform: uppercase; }
+
+/*# sourceMappingURL=_menu.css.map */

@@ -1,0 +1,53 @@
+.footer {
+  padding: 40px 50px 20px 50px;
+  background-color: #101010;
+  border-bottom-color: #e3e3e3;
+  border-bottom-style: solid;
+  border-bottom-width: 1px; }
+  .footer h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px; }
+  .footer a:link {
+    color: white;
+    font-size: 14px;
+    padding: 2px; }
+  .footer a:visited {
+    color: white;
+    font-size: 14px; }
+  .footer a:hover {
+    color: lightblue;
+    font-size: 14px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s; }
+  .footer a:active {
+    font-size: 14px;
+    color: #034da2; }
+  .footer i {
+    color: white;
+    font-size: 14px;
+    padding: 6px 6px 2px 2px; }
+  .footer i:hover {
+    color: lightblue;
+    font-size: 14px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s; }
+
+footer {
+  background-color: #101010; }
+  footer span {
+    color: white;
+    padding: 20px;
+    font-size: 14px; }
+  footer img {
+    max-width: 100px; }
+
+/*# sourceMappingURL=_footer.css.map */
