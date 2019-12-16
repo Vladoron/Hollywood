@@ -1,10 +1,9 @@
 #hero {
-    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: -5;
+
 }
 
 .carousel-indicators li{
@@ -13,5 +12,6 @@
      width: 10px;
      height: 10px;
      border-radius: 100%;
-     bottom: 50px;
+     bottom: 3%;
+     cursor: pointer;
      }
