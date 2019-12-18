@@ -11,11 +11,6 @@
     <link rel="stylesheet" href="css\bootstrap-reboot.min.css" type="text/css">
     <link rel="stylesheet" href="css\bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--
-    <script src="C:\Users\Vlad\Desktop\development\development-de la birou\Hollywood-Multiplex\js\bootstrap.bundle.js"></script>
-    <script src="C:\Users\Vlad\Desktop\development\development-de la birou\Hollywood-Multiplex\js\bootstrap.bundle.min.js"></script>
-    <script src="C:\Users\Vlad\Desktop\development\development-de la birou\Hollywood-Multiplex\js\bootstrap.js"></script>
--->
     <script src="js\jQuery.js"></script>
     <script src="js\bootstrap.min.js"></script>
     <script src="js\bootstrap.js"></script>
@@ -31,42 +26,44 @@
 
 <!-- header Logo + Menu -->
 
-<div class="container logo-menu">
-     <div class="row align-items-center">
-          <div class="header-logo col-sm-2 hidden-sm">
-               <a href="#">
-                    <img src="media\logo_cinema_HM.png" alt="Logo Hollywood Multiplex">
-               </a>
-          </div>
-          <div class="col-sm-10 ">
-               <nav class="navbar navbar-expand-lg menu">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                         <i class="fa fa-bars" aria-hidden="true"></i>
-                    </button>
+<div class="logo-menu">
+     <div class="container">
+          <div class="row align-items-center">
+               <div class="header-logo col-sm-2 hidden-sm">
+                    <a href="#">
+                         <img src="media\logo_cinema_HM.png" alt="Logo Hollywood Multiplex">
+                    </a>
+               </div>
+               <div class="col-sm-10 ">
+                    <nav class="navbar navbar-expand-lg menu">
+                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                              <i class="fa fa-bars" aria-hidden="true"></i>
+                         </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                         <ul class="navbar-nav">
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">Program</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">In curand</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">Promotii</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">Stiri</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" href="#">Trailere</a>
-                              </li>
-                         </ul>
-                    </div>
-               </nav>
+                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                              <ul class="navbar-nav">
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#">Program</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#">In curand</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#">Promotii</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#">Stiri</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#">Trailere</a>
+                                   </li>
+                              </ul>
+                         </div>
+                    </nav>
+               </div>
           </div>
      </div>
 </div>
@@ -98,16 +95,17 @@
 <!-- Lista filme -->
 
 <br>
-
-<div class="container ">
-     <h2 id="acum-la-cinema">Acum la cinema</h2>
+<div class="container">
+     <div class="acum-la-cinema">
+          <h2><span>Acum la cinema</span></h2>
+     </div>
 </div>
 
-<div class="container">
+<div class="container border-bottom">
      <div class="row">
           <div class="col-sm-3 col-md-2">
-               <a href="#" class="imagine">
-                    <img src="media\movie-7-270x340.jpg" alt="Poster film" class="imagine">
+               <a href="#" class="">
+                    <img src="media\movie-7-270x340.jpg" alt="Poster film" class="img-fluid border-radius">
                </a>
           </div>
           <div class="col-sm-9 col-md-10">
@@ -121,9 +119,6 @@
                               <div class="full-description">
                                    <a href="#">Despre film ></a>
                               </div>
-                    </div>
-                    <div class="col-md-4 col-sm-3 d-flex justify-content-center">
-                              <button type="button" name="rezerva" class="btn btn-primary" id="btn-rezerva">Rezervă</button>
                     </div>
                </div>
                <div class="row">
@@ -185,15 +180,18 @@
                <span>22:30</span>
           </div>
      </div>
+     <div class="d-flex justify-content-center margin">
+               <button type="button" name="rezerva" class="btn btn-primary btn-rezerva">Rezervă</button>
+     </div>
 </div>
 
 <br><br>
 
 <div class="container">
-     <div class="row un-film">
+     <div class="row">
           <div class="col-sm-3 col-md-2">
                <a href="#" class="imagine">
-                    <img src="media\movie-7-270x340.jpg" alt="Poster film" class="imagine">
+                    <img src="media\movie-7-270x340.jpg" alt="Poster film" class="border-radius img-fluid">
                </a>
           </div>
           <div class="col-sm-9 col-md-10">
@@ -209,7 +207,7 @@
                               </div>
                     </div>
                     <div class="col-md-4 col-sm-3 d-flex justify-content-center">
-                              <button type="button" name="rezerva" class="btn btn-primary" id="btn-rezerva">Rezervă</button>
+                              <button type="button" name="rezerva" class="btn btn-primary btn-rezerva">Rezervă</button>
                     </div>
                </div>
                <div class="row">
@@ -357,6 +355,8 @@
           </div>
      </div>
 </footer>
+
+
 </body>
 </html>
 

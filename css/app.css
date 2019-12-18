@@ -4,8 +4,7 @@
 
 .logo-menu {
   position: absolute;
-  z-index: 1;
-  left: 10%; }
+  z-index: 1; }
 
 .menu {
   float: right;
@@ -13,7 +12,8 @@
   .menu .navbar-nav {
     border-bottom-color: #e3e3e3;
     border-bottom-style: solid;
-    border-bottom-width: 1px; }
+    border-bottom-width: 1px;
+    padding: -10px; }
     .menu .navbar-nav li {
       margin: 0 20px;
       padding-bottom: 5px;
@@ -47,6 +47,10 @@
       color: #FFFFFF;
       font-size: 16px;
       text-transform: uppercase; }
+
+.navbar-toggler {
+  color: white;
+  float: right; }
 
 * {
   font-family: 'Roboto Condensed', sans-serif;
@@ -107,15 +111,15 @@ footer {
   footer img {
     max-width: 100px; }
 
-.imagine {
-  max-width: 170px;
+.border-radius {
   border-radius: 15px; }
 
 .genre {
   text-transform: uppercase;
   color: darkblue;
   font-size: 14px;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  margin-top: 100px; }
 
 .movie-title {
   font-size: 24px;
@@ -133,6 +137,7 @@ footer {
   position: relative;
   letter-spacing: 4px;
   text-transform: uppercase;
+  margin-bottom: 10px;
   color: darkblue; }
   .full-description a:link {
     color: darkblue; }
@@ -146,7 +151,7 @@ footer {
     transition-timing-function: ease-in-out;
     transition-delay: 0s; }
 
-#btn-rezerva {
+.btn-rezerva {
   border-radius: 50px;
   background-color: #034da2;
   font-size: 13px;
@@ -161,7 +166,7 @@ footer {
   border-color: #034da2;
   margin: auto; }
 
-#btn-rezerva:hover {
+.btn-rezerva:hover {
   background-color: #bdcee0;
   border-color: #bdcee0;
   text-decoration: none;
@@ -176,22 +181,24 @@ footer {
   font-size: 14px;
   letter-spacing: 2px; }
 
-.astazi .zi {
-  font-size: 12px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: darkblue;
-  padding: 10px; }
-.astazi .ore {
-  padding: 10px; }
-  .astazi .ore span {
+.astazi {
+  margin-top: 15px; }
+  .astazi .zi {
     font-size: 12px;
-    color: #fff;
-    position: relative;
-    background-color: #034da2;
-    border-radius: 10px;
-    padding: 10px;
-    margin: auto 5px; }
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: darkblue;
+    padding: 10px; }
+  .astazi .ore {
+    padding: 10px; }
+    .astazi .ore span {
+      font-size: 12px;
+      color: #fff;
+      position: relative;
+      background-color: #034da2;
+      border-radius: 10px;
+      padding: 10px;
+      margin: auto 5px; }
 
 .program .zi {
   font-size: 12px;
@@ -210,13 +217,30 @@ footer {
     padding: 10px;
     margin: auto 5px; }
 
-h2 {
+h2 span {
   font-size: 18px;
-  color: darkblue; }
+  color: darkblue;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #034da2;
+  border-bottom-width: 5px;
+  padding-bottom: 3px; }
 
-#acum-la-cinema {
-  padding: 20px;
-  border: solid 1px black; }
+.acum-la-cinema {
+  border-bottom-style: solid;
+  border-bottom-color: #dee2e6;
+  border-bottom-width: 1px;
+  margin: 20px auto 40px auto; }
+
+.border-bottom {
+  border-bottom-style: solid;
+  border-bottom-color: #dee2e6;
+  border-bottom-width: 1px;
+  padding-bottom: 15px; }
+
+.margin {
+  margin: 25px auto 15px auto; }
 
 #hero {
   top: 0;

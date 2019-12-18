@@ -1,10 +1,15 @@
+.logo-menu {
+  position: absolute;
+  z-index: 1; }
+
 .menu {
   float: right;
   z-index: 1; }
   .menu .navbar-nav {
     border-bottom-color: #e3e3e3;
     border-bottom-style: solid;
-    border-bottom-width: 1px; }
+    border-bottom-width: 1px;
+    padding: -10px; }
     .menu .navbar-nav li {
       margin: 0 20px;
       padding-bottom: 5px;
@@ -38,5 +43,9 @@
       color: #FFFFFF;
       font-size: 16px;
       text-transform: uppercase; }
+
+.navbar-toggler {
+  color: white;
+  float: right; }
 
 /*# sourceMappingURL=_menu.css.map */

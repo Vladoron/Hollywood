@@ -1,5 +1,4 @@
-.imagine {
-     max-width: 170px;
+.border-radius {
      border-radius: 15px;
 }
 
@@ -8,6 +7,7 @@
      color: darkblue;
      font-size: 14px;
      letter-spacing: 2px;
+     margin-top: 100px;
 }
 
 .movie-title {
@@ -28,6 +28,7 @@
     position: relative;
     letter-spacing: 4px;
     text-transform: uppercase;
+    margin-bottom:10px;
     color: darkblue;
     a:link {
       color: darkblue;
@@ -49,7 +50,7 @@
     }
 }
 
-#btn-rezerva {
+.btn-rezerva {
      border-radius: 50px;
      background-color: #034da2;
      font-size: 13px;
@@ -67,7 +68,7 @@
 
 }
 
-#btn-rezerva:hover {
+.btn-rezerva:hover {
 background-color: #bdcee0;
 border-color: #bdcee0;
 text-decoration: none;
@@ -85,6 +86,7 @@ transition-delay: 0s;
 }
 
 .astazi {
+     margin-top: 15px;
      .zi {
           font-size: 12px;
           letter-spacing: 2px;
@@ -129,13 +131,32 @@ transition-delay: 0s;
 }
 
 h2 {
-     font-size: 18px;
-     color: darkblue;
+     span {
+          font-size: 18px;
+          color: darkblue;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          border-bottom-style: solid;
+          border-bottom-color: #034da2;
+          border-bottom-width: 5px;
+          padding-bottom: 3px;
+     }
 }
 
-#acum-la-cinema {
-     padding: 20px;
-     border: solid 1px black;
+.acum-la-cinema {
+     border-bottom-style: solid;
+     border-bottom-color: #dee2e6;
+     border-bottom-width: 1px;
+     margin: 20px auto 40px auto;
+}
 
+.border-bottom {
+     border-bottom-style: solid;
+     border-bottom-color: #dee2e6;
+     border-bottom-width: 1px;
+     padding-bottom: 15px;
+}
 
+.margin {
+     margin: 25px auto 15px auto;
 }
